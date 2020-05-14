@@ -1,0 +1,36 @@
+.Button {
+    background-color: rgb(223, 223, 223);
+    color: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Success {
+    color: #577133;
+}
+
+.View {
+    color: #173aa4;
+}
+
+.Update {
+    color: #a47717;
+}
+
+.Delete {
+    color: #b82323;
+}
